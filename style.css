@@ -22,6 +22,7 @@ article {
 
 section{
   margin: 1em;
+  margin-bottom: 1vh;
   padding: 1em;
 }
 
@@ -47,7 +48,12 @@ header img {
   border-radius: 50%;
   max-width: 150px;
 }
-
+hr {
+  border: none;
+  height: 1px;
+  color: #333; 
+  background-color: #333;
+}
 h1 {
   text-transform: uppercase;
   margin: 1em 0;
@@ -113,14 +119,17 @@ a .fab {
   flex: 0 0 50%;
   max-width: 50%;
 }
-
-.skills .column ul, ul.job-description {
-  list-style-type: none;
+.skills .column img{
+  justify-content: space-between ;
+  margin-right: 2vh;
+  margin-bottom: 3vh;
 }
 
+
 .skills .column ul > li:before {
-  content: "►";
+  content: ""; 
   padding-right: 0.5em;
+
   color: #509e98;
 }
 
@@ -131,12 +140,6 @@ a .fab {
 .sekolah span, .job-title span {
   color: blue;
   text-decoration: underline;
-}
-
-ul.job-description li:before{
-  content: "✔";
-  padding-right: 0.5em;
-  color: #509e98;
 }
 
 footer {
